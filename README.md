@@ -76,3 +76,77 @@ Der Server basiert auf ASP.NET und stellt den Clients verschiedenste Endpoints z
 
 
 ### Die Endpunkte umfassen:
+
+
+## Benutzer
+<details>
+  <summary>/api/User [GET]</summary>
+  
+  **Beschreibung:** Dieser Endpunkt wird verwendet, um einen Benutzer basierend auf Benutzername und Passwort abzurufen.
+  
+  **Query-Parameter:**
+username: string
+password: string
+**Return-Wert:**
+```json
+{
+  "id": "Beispiel-UserID",
+  "username": "Beispiel-Benutzername",
+  "password": "Beispiel-Passwort",
+  // Weitere Felder...
+}
+```
+</details>
+<details>
+  <summary>/api/User/{id} [GET]</summary>
+Beschreibung: Dieser Endpunkt wird verwendet, um einen Benutzer basierend auf seiner ID abzurufen.
+
+URL-Parameter:
+id: string
+
+Return-Wert:
+{
+  "id": "Beispiel-UserID",
+  "username": "Beispiel-Benutzername",
+  // Weitere Felder...
+}
+
+</details>
+<details>
+  <summary>/api/User [POST]</summary>
+Beschreibung: Dieser Endpoint wird verwendet, um einen neuen Benutzer anzulegen.
+
+JSON-Body:
+{
+  "username": "Beispiel-Benutzername",
+  "password": "Beispiel-Passwort"
+}
+
+Return-Wert:
+{
+  "id": "Beispiel-UserID",
+  "username": "Beispiel-Benutzername",
+}
+
+</details>
+<details>
+  <summary>/api/User/Login [POST]</summary>
+Beschreibung: Dieser Endpoint wird verwendet, um einen Benutzer einzuloggen.
+
+JSON-Body:
+{
+  "username": "Beispiel-Benutzername",
+  "password": "Beispiel-Passwort"
+}
+Return-Wert:
+{
+  "id": "Beispiel-UserID",
+  "username": "Beispiel-Benutzername",
+  // Weitere Felder...
+}
+</details>
+<details>
+  <summary>/api/User/Search [GET]</summary>
+Beschreibung: Dieser Endpoint wird verwendet, um Benutzer basierend auf einer Suchanfrage zu finden.
+
+Query-Parameter:
