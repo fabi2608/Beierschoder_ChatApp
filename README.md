@@ -18,7 +18,6 @@ Die ChatApp "SuperChat" ermöglicht es verschiedensten Benutzern miteinander zu 
 ## WPF-Anwendung
 
 ### Login/Register
-![Frontend Login auf der WebApp](./Dokumente/Bilder-fuer-Doku/Login-WebApp.png)<br>
 
 Die Login-Seite der WPF-Anwendung wird anhand zweier Eingabefelder dargestellt<br>
 Im "Benutzername"-Feld gibt der Benutzer seinen gewünschten Benutzernamen ein, sofern dieser noch nicht vergeben ist/ es noch keinen "User" mit dem gleichen Benutzernamen gibt. Daraufhin muss der Benutzer noch ein Passwort eingeben.<br>
@@ -27,7 +26,7 @@ Durch das Bestätigen des PopUp-Fensters, gelangt der Benutzer nun auf die "Home
 
 ### Homepage
 Die Homepage ist das Herzstück der ChatApp. Es besteht grundsätzlich aus 5 Komponenten, welche im Kommenden näher beschrieben werden.
-![Frontend Haupt-Bildschirm auf der WebApp](./Dokumente/Bilder-fuer-Doku/Haupt-WebApp.png)<br>
+
 #### Searchbar
 Die Searchbar befindet sich ganz links und soll den Benutzer durch "Search for new Users" auffordern, neue Benutzer im System zu durchsuchen.<br>
 Sucht der Benutzer nun bspw. nach einem gewissen Namen und beginnt zu schreiben, werden ihm im Schreibprozess bereits alle User angezeigt, welche mit den jeweiligen Buchstaben beginnen.<br>
@@ -46,7 +45,6 @@ In der Fußzeile der ChatApp kann man durch einen Klick auf den blau hinterlegte
 ## Web-Anwendung
 
 ### Login/Register
-![Frontend Login auf der WebApp](./Dokumente/Bilder-fuer-Doku/Login-WebApp.png)<br>
 
 Die Login-Seite der WPF-Anwendung wird anhand zweier Eingabefelder dargestellt<br>
 Im "Benutzername"-Feld gibt der Benutzer seinen gewünschten Benutzernamen ein, sofern dieser noch nicht vergeben ist/ es noch keinen "User" mit dem gleichen Benutzernamen gibt. Daraufhin muss der Benutzer noch ein Passwort eingeben.<br>
@@ -55,7 +53,7 @@ Durch das Bestätigen des PopUp-Fensters, gelangt der Benutzer nun auf die "Home
 
 ### Homepage
 Die Homepage ist das Herzstück der ChatApp. Es besteht grundsätzlich aus 5 Komponenten, welche im Kommenden näher beschrieben werden.
-![Frontend Haupt-Bildschirm auf der WebApp](./Dokumente/Bilder-fuer-Doku/Haupt-WebApp.png)<br>
+
 #### Searchbar
 Die Searchbar befindet sich ganz links und soll den Benutzer durch "Search for new Users" auffordern, neue Benutzer im System zu durchsuchen.<br>
 Sucht der Benutzer nun bspw. nach einem gewissen Namen und beginnt zu schreiben, werden ihm im Schreibprozess bereits alle User angezeigt, welche mit den jeweiligen Buchstaben beginnen.<br>
