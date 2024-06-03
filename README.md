@@ -63,6 +63,7 @@ In der Fußzeile der ChatApp kann man durch einen Klick auf den blau hinterlegte
 ## Web-Anwendung
 
 ### Login/Register
+![Bilder_fuer_die_Dokumentation/web_login.png](Bilder_fuer_die_Dokumentation/web_login.png)<br>
 
 Die Login-Seite der WPF-Anwendung wird anhand zweier Eingabefelder dargestellt<br>
 Im "Benutzername"-Feld gibt der Benutzer seinen gewünschten Benutzernamen ein, sofern dieser noch nicht vergeben ist/ es noch keinen "User" mit dem gleichen Benutzernamen gibt. Daraufhin muss der Benutzer noch ein Passwort eingeben.<br>
@@ -70,21 +71,31 @@ Wenn beide Kriterien erfüllt sind, kann sich der Benutzer entweder registrieren
 Durch das Bestätigen des PopUp-Fensters, gelangt der Benutzer nun auf die "Homepage" der WPF-Anwendung.
 
 ### Homepage
+![Bilder_fuer_die_Dokumentation/web_home.png](Bilder_fuer_die_Dokumentation/web_home.png)<br>
+
 Die Homepage ist das Herzstück der ChatApp. Es besteht grundsätzlich aus 5 Komponenten, welche im Kommenden näher beschrieben werden.
 
 #### Searchbar
+![Bilder_fuer_die_Dokumentation/web_search.png](Bilder_fuer_die_Dokumentation/web_search.png)<br>
+
 Die Searchbar befindet sich ganz links und soll den Benutzer durch "Search for new Users" auffordern, neue Benutzer im System zu durchsuchen.<br>
 Sucht der Benutzer nun bspw. nach einem gewissen Namen und beginnt zu schreiben, werden ihm im Schreibprozess bereits alle User angezeigt, welche mit den jeweiligen Buchstaben beginnen.<br>
 Hat der Benutzer nun seinen gewünschten Chatpartner gefunden, klickt er ihn ganz einfach an und es wird ein Chat erstellt.<br>
 #### LstChats
+![Bilder_fuer_die_Dokumentation/web_chats.png](Bilder_fuer_die_Dokumentation/web_chats.png)<br>
+
 Wenn ein User in der Searchbar angeklickt wird, erscheint er in "LstChats". Hier werden anhand einer Liste alle User ausgegeben, mit denen der angemeldete Benutzer einen existierenden Chat hat.<br>
 Dadurch muss der Benutzer nicht jedes mal den gewünschten Chatpartner suchen, sondern kann ganz einfach die LstChats-Methode verwenden.<br>
 Klickt der Benutzer nun auf einen User in lstChats, wird der dazugehörige Chat-(verlauf) in LstChat angezeigt.<br>
 #### LstChat
+![Bilder_fuer_die_Dokumentation/web_chat.png](Bilder_fuer_die_Dokumentation/web_chat.png)<br>
+
 LstChat ist grundsätzlich die Liste des Chatverlaufs, zwischen den zwei Usern. Es wird das jeweilige Datum / die Uhrzeit der Nachricht angezeigt. Zudem kann der angemeldete Benutzer seine Nachrichten auch wieder löschen, indem er über die gewünschte Nachricht hovert, und auf das Papierkorb-Icon klickt.<br>
 #### Benutzerfeld
 Oben rechts wird das klassisches User-Logo angezeigt. Klickt man darauf, wird einem der aktuell angemeldete Benutzername angezeigt, sowie die Optionen, den User wieder auszuloggen (und damit zurück zum Login-Fenster zu gelangen) oder seinen User zu löschen.<br>
 #### Link
+![Bilder_fuer_die_Dokumentation/web_foot.png](Bilder_fuer_die_Dokumentation/web_foot.png)<br>
+
 In der Fußzeile der ChatApp kann man durch einen Klick auf den blau hinterlegten Link "GitHub" zur öffentlichen GitHub-Seite dieses ChatApp-Projekts gelangen.<br>
 
 Im Prinzip ist der Aufbau von WPF- und Webanwendung genau gleich. Die einzelnen Komponenten waren logischerweise in der Webanwendung viel einfacher umzusetzen. Trotzdem habe ich mit der WPF-Anwendung begonnen, weshalb die nachfolgende Umsetzung in Webform simpler war.
