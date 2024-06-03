@@ -1,0 +1,69 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:av="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="av"
+    x:Class="ChatAppWPF.HomeWindow"
+    Title="Home"
+    Height="700"
+    Width="1300">
+    <Grid>
+
+        <Grid.Background>
+            <ImageBrush ImageSource="/ChatAppWPF;component/Images/home.jpg" Stretch="UniformToFill" />
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" Height="124" Grid.RowSpan="2" VerticalAlignment="Top" Width="1300">
+            <Label Content="Super" HorizontalAlignment="Left" Height="124" VerticalAlignment="Center" Width="303" FontFamily="72 Black" FontSize="75" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" Foreground="#FFF15A25" />
+            <Label Content="Chat" HorizontalAlignment="Left" Height="124" VerticalAlignment="Center" Width="347" FontFamily="72 Black" FontSize="75" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" Foreground="#FFF0D61D" Margin="303,0,0,0" />
+            <Image x:Name="img_userlogo" Source="/ChatAppWPF;component/Images/user.png" Height="50" Margin="1229,66,24,8" Stretch="Uniform" MouseLeftButtonDown="img_userlogo_MouseLeftButtonDown" />
+
+            <Grid HorizontalAlignment="Left" Margin="1111,20,0,0" VerticalAlignment="Top" Width="113" Height="94">
+                <Label x:Name="lbl_usernamedisplay" Content="Username" HorizontalAlignment="Center" Height="30" VerticalAlignment="Top" Width="114" HorizontalContentAlignment="Center" FontFamily="72 Black" BorderBrush="Black" BorderThickness="2" />
+                <Button x:Name="btn_logout" Content="Logout" HorizontalAlignment="Center" Margin="0,32,0,32" Width="114" FontFamily="72 Black" BorderBrush="Black" BorderThickness="2" Click="btn_logout_Click" Background="#00000000" />
+                <Button x:Name="btn_deleteaccount" Content="Delete Account" HorizontalAlignment="Center" Margin="0,64,0,0" Width="114" FontFamily="72 Black" BorderBrush="Black" BorderThickness="2" Click="btn_deleteaccount_Click" Background="Red" />
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left" Height="555" Margin="0,129,0,0" VerticalAlignment="Top" Width="410" Grid.ColumnSpan="2">
+            <TextBox x:Name="txtbox_search" Margin="80,85,130,440" TextChanged="Txtbox_search_TextChanged" FontFamily="72" FontSize="20" VerticalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" />
+
+            <ListBox x:Name="lst_searchresults" Margin="80,135,130,265" DisplayMemberPath="Username" SelectionMode="Single" SelectionChanged="lst_searchresults_SelectionChanged" FontFamily="72" FontSize="20" />
+
+            <Label Content="Search for new Users:" HorizontalAlignment="Left" Height="28" Margin="80,57,0,0" VerticalAlignment="Top" Width="190" FontFamily="72 Black" FontSize="15" />
+            <Label x:Name="lbl_searchresults" Content="Search Results:" HorizontalAlignment="Left" Height="20" Margin="80,115,0,0" VerticalAlignment="Top" Width="200" FontFamily="72 Black" FontSize="10" />
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" Height="555" Margin="415,129,0,0" VerticalAlignment="Top" Width="280">
+            <ListBox x:Name="lst_chats" Height="369" VerticalAlignment="Top" SelectionChanged="lst_chats_SelectionChanged" Margin="35,85,35,0" FontFamily="72" FontSize="20" BorderBrush="Black" BorderThickness="2" KeyDown="lst_chats_KeyDown" />
+            <Label Content="Chats:" HorizontalAlignment="Center" Height="50" Margin="0,35,0,0" VerticalAlignment="Top" Width="210" FontFamily="72 Black" FontSize="25" VerticalContentAlignment="Center" />
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" Height="555" Margin="700,129,0,0" VerticalAlignment="Top" Width="600">
+            <Label x:Name="lbl_chatpartnerdisplay" Content="ChatPartner Username" HorizontalAlignment="Left" Height="50" Margin="31,35,0,0" VerticalAlignment="Top" Width="327" FontFamily="72 Black" FontSize="25" />
+            <ListBox x:Name="lst_chat" HorizontalAlignment="Center" Height="329" Margin="0,85,0,0" VerticalAlignment="Top" Width="538" ScrollViewer.VerticalScrollBarVisibility="Auto" FontFamily="72" FontSize="20" BorderBrush="Black" BorderThickness="2" KeyDown="lst_chat_KeyDown" />
+            <TextBox x:Name="txtbox_message" TextWrapping="Wrap" Margin="31,419,134,104" FontFamily="72" FontSize="20" VerticalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" />
+            <Button x:Name="btn_sendmessage" Content="Send" Margin="471,419,31,104" FontFamily="72 Black" FontSize="20" VerticalContentAlignment="Center" BorderBrush="Black" BorderThickness="2" Background="#FFF0D61D" Click="btn_sendmessage_Click" />
+        </Grid>
+
+        <Grid Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Bottom">
+            <TextBlock Foreground="White" FontFamily="72 Black" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="10">
+                <Run Text="Download SuperChat's WPF-Version/Server or readme.md on " />
+                <Hyperlink NavigateUri="https://github.com/fabi2608/Beierschoder_ChatApp" RequestNavigate="Hyperlink_RequestNavigate">
+                    <Run Text="GitHub" />
+                </Hyperlink>
+            </TextBlock>
+        </Grid>
+    </Grid>
+</Window>

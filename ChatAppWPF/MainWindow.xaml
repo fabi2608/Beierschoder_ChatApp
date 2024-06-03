@@ -1,0 +1,16 @@
+﻿<Window x:Class="ChatAppWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SuperChat" Height="600" Width="700">
+    <Grid Margin="0,0,0,0">
+        <Grid.Background>
+            <ImageBrush ImageSource="/ChatAppWPF;component/Images/home.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+        <Image Source="/ChatAppWPF;component/Images/logo.png" Stretch="Uniform" Margin="83,73,83,73"/>
+        <Label Content="Super" HorizontalAlignment="Left" Height="120" VerticalAlignment="Top" Width="253" FontFamily="72 Black" FontSize="75" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Foreground="#FFF15A25" Margin="-12,119,0,0"/>
+        <Label Content="Chat" HorizontalAlignment="Left" Height="120" VerticalAlignment="Top" Width="198" FontFamily="72 Black" FontSize="75" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" Foreground="#FFF0D61D" Margin="447,292,0,0" RenderTransformOrigin="0.571,0.54"/>
+
+        <Button Content="Start SuperChat" Click="btn_OpenLoginWindow_Click" Margin="211,447,211,73" FontFamily="72 Black"  FontSize="20" BorderBrush="#00F15A25"  BorderThickness="3" Background="#00F15A25"/>
+    </Grid>
+</Window>

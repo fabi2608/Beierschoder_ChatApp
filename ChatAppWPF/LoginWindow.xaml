@@ -1,0 +1,24 @@
+﻿<Window x:Class="ChatAppWPF.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login" Height="350" Width="450">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/ChatAppWPF;component/Images/login.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+        <StackPanel Margin="20">
+            <TextBlock Text="SuperChat" FontWeight="Bold" HorizontalAlignment="Center" Margin="0 0 0 20" FontFamily="72 Black" FontSize="40" Foreground="White"/>
+            <Label Content="Username" Height="26" Margin="38 0 0 0" Width="74" HorizontalAlignment="Left" FontFamily="72 Black" Foreground="Black"/>
+            <TextBox x:Name="txtbox_username" Margin="0 0 0 20" Height="23" Width="336" FontFamily="72" FontSize="15" VerticalContentAlignment="Center" BorderBrush="Black" BorderThickness="2"/>
+            <Label Content="Password" Height="26" Margin="38 0 0 0" Width="74" HorizontalAlignment="Left" FontFamily="72 Black"/>
+            <PasswordBox x:Name="txtbox_password" Margin="0 0 0 40" Height="25" Width="335" FontFamily="72" FontSize="15" BorderBrush="Black" BorderThickness="2"/>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Width="290">
+                <Button Content="Login" Click="LoginButton_Click" Margin="0 0 10 0" Width="140" Height="30" FontFamily="72 Black" FontSize="18" BorderBrush="Black" BorderThickness="3" Background="#FFFCE442"/>
+                <Button Content="Register" Click="RegisterButton_Click" Margin="0 0 10 0" Width="140" Height="30" FontFamily="72 Black" FontSize="18" BorderBrush="Black" BorderThickness="3" Background="#FFFCE442"/>
+
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
