@@ -76,7 +76,7 @@ Durch das Bestätigen des PopUp-Fensters, gelangt der Benutzer nun auf die "Home
 Die Homepage ist das Herzstück der ChatApp. Es besteht grundsätzlich aus 5 Komponenten, welche im Kommenden näher beschrieben werden.
 
 #### Searchbar
-![Bilder_fuer_die_Dokumentation/web_search.png](Bilder_fuer_die_Dokumentation/web_search.png)<br>
+![Bilder_fuer_die_Dokumentation/web_searchbar.png](Bilder_fuer_die_Dokumentation/web_searchbar.png)<br>
 
 Die Searchbar befindet sich ganz links und soll den Benutzer durch "Search for new Users" auffordern, neue Benutzer im System zu durchsuchen.<br>
 Sucht der Benutzer nun bspw. nach einem gewissen Namen und beginnt zu schreiben, werden ihm im Schreibprozess bereits alle User angezeigt, welche mit den jeweiligen Buchstaben beginnen.<br>
@@ -92,6 +92,8 @@ Klickt der Benutzer nun auf einen User in lstChats, wird der dazugehörige Chat-
 
 LstChat ist grundsätzlich die Liste des Chatverlaufs, zwischen den zwei Usern. Es wird das jeweilige Datum / die Uhrzeit der Nachricht angezeigt. Zudem kann der angemeldete Benutzer seine Nachrichten auch wieder löschen, indem er über die gewünschte Nachricht hovert, und auf das Papierkorb-Icon klickt.<br>
 #### Benutzerfeld
+![Bilder_fuer_die_Dokumentation/web_user.png](Bilder_fuer_die_Dokumentation/web_user.png)<br>
+
 Oben rechts wird das klassisches User-Logo angezeigt. Klickt man darauf, wird einem der aktuell angemeldete Benutzername angezeigt, sowie die Optionen, den User wieder auszuloggen (und damit zurück zum Login-Fenster zu gelangen) oder seinen User zu löschen.<br>
 #### Link
 ![Bilder_fuer_die_Dokumentation/web_foot.png](Bilder_fuer_die_Dokumentation/web_foot.png)<br>
