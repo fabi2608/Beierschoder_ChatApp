@@ -51,7 +51,7 @@ Klickt der Benutzer nun auf einen User in lstChats, wird der dazugehörige Chat-
 LstChat ist grundsätzlich die Liste des Chatverlaufs, zwischen den zwei Usern. Es wird das jeweilige Datum / die Uhrzeit der Nachricht angezeigt. Zudem kann der angemeldete Benutzer seine Nachrichten auch wieder löschen, indem er die "Entf"-Taste auf der Tastatur drückt.<br>
 
 #### Benutzerfeld
-![Bilder_fuer_die_Dokumentation/wpf_logo.png](Bilder_fuer_die_Dokumentation/wpf_logo.png)<br>
+![Bilder_fuer_die_Dokumentation/wpf_user.png](Bilder_fuer_die_Dokumentation/wpf_user.png)<br>
 
 Oben rechts wird das klassisches User-Logo angezeigt. Klickt man darauf, wird einem der aktuell angemeldete Benutzername angezeigt, sowie die Optionen, den User wieder auszuloggen (und damit zurück zum Login-Fenster zu gelangen) oder seinen User zu löschen.<br>
 
