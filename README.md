@@ -13,7 +13,8 @@ graph TD;
 
 ## Beschreibung der Software
 
-Die ChatApp "SuperChat" ermöglicht es verschiedensten Benutzern miteinander zu chatten. Dabei legt jeder Benutzer zunächst seinen "User" an, mit dem er sich daraufhin immer wieder anmelden kann. Ein "User" kann dabei mehrere "Chats" mit anderen "Usern" haben. Die Benutzeroberfläche ist einerseits eine WPF-Anwendung, welche die gleichen Funktionalitäten besitzen wie die dazugehörige Web-Anwendung. Beide Anwendungen bieten eine benutzerfreundliche Oberfläche. Das Logo von SuperChat habe ich mir von einer KI generieren lassen:
+Die ChatApp "SuperChat" ermöglicht es verschiedensten Benutzern miteinander zu chatten. Dabei legt jeder Benutzer zunächst seinen "User" an, mit dem er sich daraufhin immer wieder anmelden kann. Ein "User" kann dabei mehrere "Chats" mit anderen "Usern" haben. Die Benutzeroberfläche ist einerseits eine WPF-Anwendung, welche die gleichen Funktionalitäten besitzen wie die dazugehörige Web-Anwendung. Beide Anwendungen bieten eine benutzerfreundliche Oberfläche. Das Logo von SuperChat habe ich mir von einer KI generieren lassen:<br>
+![Bilder_fuer_die_Dokumentation/logo.png](Bilder_fuer_die_Dokumentation/logo.png)<br>
 
 
 ## WPF-Anwendung
