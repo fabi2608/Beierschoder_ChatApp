@@ -69,6 +69,8 @@ Oben rechts wird das klassisches User-Logo angezeigt. Klickt man darauf, wird ei
 #### Link
 In der Fußzeile der ChatApp kann man durch einen Klick auf den blau hinterlegten Link "GitHub" zur öffentlichen GitHub-Seite dieses ChatApp-Projekts gelangen.<br>
 
+Im Prinzip ist der Aufbau von WPF- und Webanwendung genau gleich. Die einzelnen Komponenten waren logischerweise in der Webanwendung viel einfacher umzusetzen. Trotzdem habe ich mit der WPF-Anwendung begonnen, weshalb die nachfolgende Umsetzung in Webform simpler war.
+
 ##  API-Beschreibung
 Der Server basiert auf ASP.NET und stellt den Clients verschiedenste Endpoints zur Verfügung:
 
