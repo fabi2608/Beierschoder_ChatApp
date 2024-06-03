@@ -1236,7 +1236,7 @@ classDiagram
 ```
 
 ## Diskussion der Ergebnisse
-Zu guter Letzt ist anzumerken, dass während der Projektarbeit immer wieder verschiedene Herausforderungen auftraten. Es war das erste Mal, dass ich mit ASP.NET gearbeitet habe, nachdem ich zuvor hauptsächlich mit Spring Boot gearbeitet hatte. Anfänglich gab es Schwierigkeiten beim Verständnis der ASP.NET-Architektur, jedoch konnte ich mich durch einige Tutorials und Videos ein klares Bild machen.
+Zu guter Letzt ist anzumerken, dass während der Projektarbeit immer wieder verschiedene Herausforderungen auftraten. Es war das erste Mal, dass ich mit ASP.NET gearbeitet habe, nachdem ich zuvor hauptsächlich mit Spring Boot gearbeitet hatte. Anfänglich gab es Schwierigkeiten beim Verständnis der ASP.NET-Architektur, jedoch konnte ich mir durch einige Tutorials und Videos ein klares Bild machen.
 
 Das Projekt ermöglichte es mir, viele neue Technologien kennenzulernen und zu verinnerlichen, darunter Angular, TypeScript und ASP.NET. Insbesondere die Client-Server-Architektur und die Implementierung von RESTful APIs waren neue Konzepte, die ich erlernen musste. Die Arbeit an einer Client-Server-Anwendung war eine interessante Erfahrung, da ich zum ersten Mal eine solche Anwendung von Grund auf selbst entwickelt habe. Es war faszinierend zu sehen, wie die verschiedenen Komponenten zusammenarbeiten, um eine fehlerlose Kommunikation zwischen Client und Server zu ermöglichen.
 
